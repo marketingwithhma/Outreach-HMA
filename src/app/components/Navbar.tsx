@@ -1,7 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { useState } from "react";
-import logoImage from "figma:asset/968280b771f9e2ad9c9dd45e8e66fb9d2a6e84bc.png";
+import logoImage from "/logo.png";
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
